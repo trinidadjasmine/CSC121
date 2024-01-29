@@ -16,4 +16,4 @@ void RestaurantBill::display() {
 	cout << "Tax:" << setw(11) << "$" << tax << endl;
 	cout << "Tip:" << setw(11) << "$" << tip << endl;
 	cout << "Total:" << setw(9) << "$" << total << endl;
-} 
+}
