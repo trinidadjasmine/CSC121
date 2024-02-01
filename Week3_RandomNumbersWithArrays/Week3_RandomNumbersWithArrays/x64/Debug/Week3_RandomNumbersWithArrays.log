@@ -1,0 +1,3 @@
+﻿  RNMaths.cpp
+C:\Users\jtrinidad679\source\repos\CSC121\Week3_RandomNumbersWithArrays\Week3_RandomNumbersWithArrays\RNMaths.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Week3_RandomNumbersWithArrays.vcxproj -> C:\Users\jtrinidad679\Source\Repos\CSC121\Week3_RandomNumbersWithArrays\x64\Debug\Week3_RandomNumbersWithArrays.exe
