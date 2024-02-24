@@ -1,0 +1,5 @@
+﻿  EndUserTest.cpp
+  RandNumGuessingGame.cpp
+C:\Users\Jasmine\source\repos\Week6_HW_5-13\Week6_HW_5-13\RandNumGuessingGame.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Week6_HW_5-13.vcxproj -> C:\Users\Jasmine\source\repos\Week6_HW_5-13\x64\Debug\Week6_HW_5-13.exe
