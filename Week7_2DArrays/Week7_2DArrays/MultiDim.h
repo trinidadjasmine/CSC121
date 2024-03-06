@@ -6,7 +6,7 @@ private:
 	// 3 rows, 4 columns
 	int myMatrix[3][4];
 	int rowTotal[3];
-	int total = 0;
+	int total;
 	int grandTotal = 0;
 
 public:

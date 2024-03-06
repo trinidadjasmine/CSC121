@@ -18,6 +18,9 @@
     <Text Include="myData.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="Answers.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MultiDim.h">

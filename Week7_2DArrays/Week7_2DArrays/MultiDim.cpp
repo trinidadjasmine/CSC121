@@ -5,10 +5,9 @@ using namespace std;
 
 void MultiDim::readData() {
 	// create inFile stream to myData.txt file
-	ifstream inFile("myData.txt");
+	ifstream inFile("myData.txt"); // does the same as line 10
 
 	// inFile.open("myData.txt"); 
-	// line 6 combines line 8, so line 8 is no longer needed
 
 	// i tracks row #, starting at 0
 	for (int i = 0; i < 3; i++) { // start of outer loop
@@ -22,32 +21,41 @@ void MultiDim::readData() {
 }
 
 void MultiDim::displayData() {
-	for (int i = 0; i < 3; i++) { // start of outer loop;
+	// i tracks row #, starting at 0
+	for (int i = 0; i < 3; i++) {
 		// j tracks column # for a fixed row 
-		for (int j = 0; j < 4; j++) { // start of inner loop
+		for (int j = 0; j < 4; j++) {
 			cout << myMatrix[i][j] << " ";
-		} // end of inner loop
+		}
 		cout << endl;
-	} // end of outer loop
+	}
 }
 
 void MultiDim::displayData_v2() {
+	ofstream outputFile;
+
+	outputFile.open("answers.txt");
+
+	// Console Output
 	for (int i = 0; i < 3; i++) {
 		total = 0;
 		for (int j = 0; j < 4; j++) {
-			// int total = 0;
-			// rowTotal[i] += myMatrix[i][j];
 			total += myMatrix[i][j];
 			rowTotal[i] = total;
-			// rowTotal[i] += myMatrix[i][j];
 			cout << myMatrix[i][j] << " ";
+
+			// Answers.txt array output
+			outputFile << myMatrix[i][j] << " ";
 		}
-		// cout << rowTotal[i];
-		// cout << total;
-		cout << rowTotal[i];
-		cout << endl;
+		cout << rowTotal[i] << endl;
+
+		// Answers.txt rowTotal output
+		outputFile << rowTotal[i] << endl;
 
 		grandTotal += rowTotal[i];
 	}
 	cout << "\nGrand Total: " << grandTotal;
+
+	// Answers.txt grandTotal output
+	outputFile << "\nGrand Total: " << grandTotal;
 }
