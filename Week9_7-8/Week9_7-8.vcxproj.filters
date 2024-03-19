@@ -18,5 +18,13 @@
     <ClCompile Include="pr7-08.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EndUserTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DetermineValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

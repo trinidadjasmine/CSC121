@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EndUserTest.cpp" />
     <ClCompile Include="pr7-08.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DetermineValues.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
